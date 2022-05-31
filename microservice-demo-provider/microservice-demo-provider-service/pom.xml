@@ -103,7 +103,6 @@
                     <execution>
                         <goals>
                             <goal>repackage</goal>
-
                         </goals>
                         <configuration>
                             <classifier>spring-boot</classifier>

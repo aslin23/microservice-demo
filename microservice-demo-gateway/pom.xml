@@ -58,7 +58,6 @@
             <groupId>com.alibaba.csp</groupId>
             <artifactId>sentinel-spring-cloud-gateway-adapter</artifactId>
         </dependency>
-
     </dependencies>
 
 

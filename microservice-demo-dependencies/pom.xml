@@ -81,6 +81,20 @@
                 <version>${dubbo-registry-nacos.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-spring-boot-starter</artifactId>
+                <version>${dubbo.version}</version>
+            </dependency>
+
+
+            <!-- Dubbo -->
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo</artifactId>
+                <version>${dubbo.version}</version>
+            </dependency>
+
 
         </dependencies>
     </dependencyManagement>
@@ -104,9 +118,5 @@
             </plugins>
         </pluginManagement>
     </build>
-
-
-
-
 
 </project>

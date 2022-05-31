@@ -8,8 +8,9 @@
 
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>microservice-demo-consumer</artifactId>
+        <artifactId>microservice-demo-dependencies</artifactId>
         <version>1.0</version>
+        <relativePath>../../microservice-demo-dependencies/pom.xml</relativePath>
     </parent>
 
 
@@ -30,14 +31,12 @@
         <dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo-spring-boot-starter</artifactId>
-            <version>${dubbo.version}</version>
         </dependency>
 
         <!-- Dubbo -->
         <dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo</artifactId>
-            <version>${dubbo.version}</version>
         </dependency>
 
         <!-- Dubbo Registry Nacos -->
